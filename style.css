@@ -1,0 +1,85 @@
+body {
+    font-family: 'Rubik';
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    height: 1073px;
+}
+
+
+/* **** TOP SECTION **** */
+
+.top-banner {
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-weight: 300;
+    padding: 15px 10px;
+    font-size: 56px;
+
+}
+
+h2 {
+    font-weight: 400;
+    padding: 15px 10px;
+    font-size: 48px;
+}
+
+p {
+    padding: 25px 10px;
+    line-height: 32px;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    padding: 70px 70px;
+    margin: auto;
+}
+
+.top-dec {
+    padding: 180px 0 0 180px;
+
+}
+
+.top-pic {
+    margin-left: 50px;
+}
+
+.highlight {
+    background-image: linear-gradient(90deg, blue, rgb(216, 89, 216));
+    font-weight: 700;
+    color: transparent;
+    -webkit-background-clip: text;
+    /* -moz-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* -moz-text-fill-color: transparent; */
+}
+
+.button-link {
+    text-decoration: none;
+    padding: 15px 30px;
+    background: linear-gradient(120deg, rgb(88, 211, 129), yellow);
+    margin: 10px 10px;
+
+}
+
+.highlight-button {
+    margin: auto;
+    font-weight: 700;
+    font-size: 18px;
+    color: transparent;
+    background-image: linear-gradient(-120deg, rgb(8, 196, 253), rgb(8, 4, 240));
+    -webkit-background-clip: text;
+}
+
+.top-img {
+    width: 90%;
+}
